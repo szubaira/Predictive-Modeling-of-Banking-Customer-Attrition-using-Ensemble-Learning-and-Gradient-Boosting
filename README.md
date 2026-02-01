@@ -16,6 +16,7 @@ The analysis was performed on a comprehensive banking dataset featuring demograp
 * **Timeframe:** The dataset captures long-term behavioral patterns to distinguish between temporary inactivity and true churn.
 * **Limitations:** A key limitation identified was **class imbalance**, where churners represented a minority of the total population—a common trait in banking data that requires specific sampling techniques to prevent model bias.
 * **Exploratory Data Analysis (EDA):** Visualizations were created to map the correlation between variables (such as age and balance) and the target variable to isolate the most significant churn drivers.
+<img width="451" height="401" alt="Screen Shot 2026-02-01 at 14 47 14" src="https://github.com/user-attachments/assets/59b5ee1f-c777-4a2f-8099-44255c7f0edc" />
 
 ### **Modeling and Evaluation**
 
@@ -27,6 +28,8 @@ To ensure a robust fit, I implemented and optimized a diverse range of supervise
 * **Precision:** The ability to minimize false "churn" alarms.
 * **Recall:** The ability to capture the maximum number of actual churners (crucial for retention).
 * **ROC-AUC:** The aggregate measure of performance across all possible classification thresholds.
+<img width="627" height="343" alt="Screen Shot 2026-02-01 at 14 50 28" src="https://github.com/user-attachments/assets/8d04a48c-6183-42ec-8826-2724085a64ae" />
+<img width="684" height="366" alt="Screen Shot 2026-02-01 at 14 50 48" src="https://github.com/user-attachments/assets/5397b976-1331-46ef-9cb1-05665f3915aa" />
 
 ### **Conclusion**
 
